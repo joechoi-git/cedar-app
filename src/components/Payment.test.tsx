@@ -9,8 +9,12 @@ describe("Payment Component", () => {
 
     it("renders initial step correctly", () => {
         renderComponent();
-        expect(screen.getByText("Hi, Taylor")).toBeInTheDocument();
-        expect(screen.getByText("Total Due: $600")).toBeInTheDocument();
+        expect(
+            screen.getByText(
+                /You can pay your bills here or verify your identity to view full bill details/i
+            )
+        ).toBeInTheDocument();
+        expect(screen.getByText("Total due")).toBeInTheDocument();
         expect(screen.getByText("Pay total")).toBeInTheDocument();
     });
 

@@ -3,215 +3,239 @@
 exports[`Payment Component matches snapshot 1`] = `
 <DocumentFragment>
   <main
-    class="min-h-screen bg-base-100"
+    class="min-h-screen bg-base-300 md:bg-base-100"
     data-theme="system"
   >
     <header
-      class="flex justify-between p-4 bg-base-200 shadow-md"
+      class="flex items-center gap-4 p-4 bg-base-300 shadow-none md:shadow-lg border-b-2 border-b-neutral-400 md:border-b-2"
     >
+      <svg
+        class="text-primary"
+        fill="none"
+        height="40"
+        viewBox="0 0 283 64"
+        width="150"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M141 16c-11 0-19 7-19 18s9 18 20 18c7 0 13-3 16-7l-7-5c-2 3-6 4-9 4-5 0-9-3-10-7h28v-3c0-11-8-18-19-18zm-9 15c1-4 4-7 9-7s8 3 9 7h-18zm117-15c-11 0-19 7-19 18s9 18 20 18c6 0 12-3 16-7l-8-5c-2 3-5 4-8 4-5 0-9-3-11-7h28l1-3c0-11-8-18-19-18zm-10 15c2-4 5-7 10-7s8 3 9 7h-19zm-39 3c0 6 4 10 10 10 4 0 7-2 9-5l8 5c-3 5-9 8-17 8-11 0-19-7-19-18s8-18 19-18c8 0 14 3 17 8l-8 5c-2-3-5-5-9-5-6 0-10 4-10 10zm83-29v46h-9V5h9zM37 0l37 64H0L37 0zm92 5-27 48L74 5h10l18 30 17-30h10zm59 12v10l-3-1c-6 0-10 4-10 10v15h-9V17h9v9c0-5 6-9 13-9z"
+          fill="currentColor"
+        />
+      </svg>
       <p
         class="text-xl font-bold text-primary"
       >
         ABC Health System
       </p>
-      <section
-        class="prose mb-12"
+      <select
+        class="border-solid border-2 p-2 border-primary"
       >
-        <select
-          class="border-solid border-2 p-2 border-primary"
+        <option
+          value="system"
         >
-          <option
-            value="system"
-          >
-            system
-          </option>
-          <option
-            value="light"
-          >
-            light
-          </option>
-          <option
-            value="dark"
-          >
-            dark
-          </option>
-          <option
-            value="cupcake"
-          >
-            cupcake
-          </option>
-          <option
-            value="bumblebee"
-          >
-            bumblebee
-          </option>
-          <option
-            value="emerald"
-          >
-            emerald
-          </option>
-          <option
-            value="corporate"
-          >
-            corporate
-          </option>
-          <option
-            value="synthwave"
-          >
-            synthwave
-          </option>
-          <option
-            value="retro"
-          >
-            retro
-          </option>
-          <option
-            value="cyberpunk"
-          >
-            cyberpunk
-          </option>
-          <option
-            value="valentine"
-          >
-            valentine
-          </option>
-          <option
-            value="halloween"
-          >
-            halloween
-          </option>
-          <option
-            value="garden"
-          >
-            garden
-          </option>
-          <option
-            value="forest"
-          >
-            forest
-          </option>
-          <option
-            value="aqua"
-          >
-            aqua
-          </option>
-          <option
-            value="lofi"
-          >
-            lofi
-          </option>
-          <option
-            value="pastel"
-          >
-            pastel
-          </option>
-          <option
-            value="fantasy"
-          >
-            fantasy
-          </option>
-          <option
-            value="wireframe"
-          >
-            wireframe
-          </option>
-          <option
-            value="black"
-          >
-            black
-          </option>
-          <option
-            value="luxury"
-          >
-            luxury
-          </option>
-          <option
-            value="dracula"
-          >
-            dracula
-          </option>
-          <option
-            value="cmyk"
-          >
-            cmyk
-          </option>
-          <option
-            value="autumn"
-          >
-            autumn
-          </option>
-          <option
-            value="business"
-          >
-            business
-          </option>
-          <option
-            value="acid"
-          >
-            acid
-          </option>
-          <option
-            value="lemonade"
-          >
-            lemonade
-          </option>
-          <option
-            value="night"
-          >
-            night
-          </option>
-          <option
-            value="coffee"
-          >
-            coffee
-          </option>
-          <option
-            value="winter"
-          >
-            winter
-          </option>
-          <option
-            value="dim"
-          >
-            dim
-          </option>
-          <option
-            value="nord"
-          >
-            nord
-          </option>
-          <option
-            value="sunset"
-          >
-            sunset
-          </option>
-        </select>
-      </section>
+          system
+        </option>
+        <option
+          value="light"
+        >
+          light
+        </option>
+        <option
+          value="dark"
+        >
+          dark
+        </option>
+        <option
+          value="cupcake"
+        >
+          cupcake
+        </option>
+        <option
+          value="bumblebee"
+        >
+          bumblebee
+        </option>
+        <option
+          value="emerald"
+        >
+          emerald
+        </option>
+        <option
+          value="corporate"
+        >
+          corporate
+        </option>
+        <option
+          value="synthwave"
+        >
+          synthwave
+        </option>
+        <option
+          value="retro"
+        >
+          retro
+        </option>
+        <option
+          value="cyberpunk"
+        >
+          cyberpunk
+        </option>
+        <option
+          value="valentine"
+        >
+          valentine
+        </option>
+        <option
+          value="halloween"
+        >
+          halloween
+        </option>
+        <option
+          value="garden"
+        >
+          garden
+        </option>
+        <option
+          value="forest"
+        >
+          forest
+        </option>
+        <option
+          value="aqua"
+        >
+          aqua
+        </option>
+        <option
+          value="lofi"
+        >
+          lofi
+        </option>
+        <option
+          value="pastel"
+        >
+          pastel
+        </option>
+        <option
+          value="fantasy"
+        >
+          fantasy
+        </option>
+        <option
+          value="wireframe"
+        >
+          wireframe
+        </option>
+        <option
+          value="black"
+        >
+          black
+        </option>
+        <option
+          value="luxury"
+        >
+          luxury
+        </option>
+        <option
+          value="dracula"
+        >
+          dracula
+        </option>
+        <option
+          value="cmyk"
+        >
+          cmyk
+        </option>
+        <option
+          value="autumn"
+        >
+          autumn
+        </option>
+        <option
+          value="business"
+        >
+          business
+        </option>
+        <option
+          value="acid"
+        >
+          acid
+        </option>
+        <option
+          value="lemonade"
+        >
+          lemonade
+        </option>
+        <option
+          value="night"
+        >
+          night
+        </option>
+        <option
+          value="coffee"
+        >
+          coffee
+        </option>
+        <option
+          value="winter"
+        >
+          winter
+        </option>
+        <option
+          value="dim"
+        >
+          dim
+        </option>
+        <option
+          value="nord"
+        >
+          nord
+        </option>
+        <option
+          value="sunset"
+        >
+          sunset
+        </option>
+      </select>
     </header>
     <section
-      class="flex justify-center items-center py-10"
+      class="flex justify-center items-center py-0 md:py-10"
     >
       <div
-        class="bg-base-100 p-6 rounded-lg shadow-md w-full max-w-lg "
+        class="bg-base-300 rounded-none md:rounded-lg shadow-none md:shadow-2xl w-full max-w-full md:max-w-screen-md min-h-[500px] "
       >
-        <div>
+        <div
+          class="p-6 pt-20 text-center bg-primary-content"
+        >
           <p
-            class="text-primary mb-4"
+            class="text-primary mb-4 text-3xl"
           >
             Hi, Taylor
           </p>
           <p
-            class="text-primary mb-4"
+            class="text-secondary mb-4"
           >
             You have 6 medical bills ready from ABC Health System. You can pay your bills here or verify your identity to view full bill details.
           </p>
-          <p
-            class="text-primary mb-6"
+        </div>
+        <div
+          class="p-6"
+        >
+          <div
+            class="flex justify-between items-center"
           >
-            Total Due: $600
-          </p>
+            <p
+              class="text-secondary mb-6"
+            >
+              Total due
+            </p>
+            <p
+              class="text-primary mb-6 text-3xl"
+            >
+              $600.00
+            </p>
+          </div>
           <button
-            class="btn btn-primary btn btn-secondary"
+            class="btn btn-primary btn btn-secondary w-full"
           >
             Pay total
           </button>

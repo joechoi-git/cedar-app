@@ -213,8 +213,8 @@ const Payment: React.FC = () => {
     };
 
     return (
-        <main className="min-h-screen bg-base-100" data-theme={theme}>
-            <header className="flex items-center gap-4 p-4 bg-base-200 shadow-md">
+        <main className="min-h-screen bg-base-300 md:bg-base-100" data-theme={theme}>
+            <header className="flex items-center gap-4 p-4 bg-base-300 shadow-none md:shadow-lg border-b-2 border-b-neutral-400 md:border-b-2">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -233,7 +233,7 @@ const Payment: React.FC = () => {
             </header>
             <section className="flex justify-center items-center py-0 md:py-10">
                 <div
-                    className={`bg-base-100 rounded-none md:rounded-lg shadow-none md:shadow-2xl w-full max-w-full md:max-w-screen-md min-h-[500px] ${animationClass}`}
+                    className={`bg-base-300 rounded-none md:rounded-lg shadow-none md:shadow-2xl w-full max-w-full md:max-w-screen-md min-h-[500px] ${animationClass}`}
                 >
                     {step === 0 && (
                         <>

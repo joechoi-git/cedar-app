@@ -1,5 +1,7 @@
 # Cedar App
 
+Check out the app hosted on [`Vercel`](https://cedar-lirtgaz3s-joechoigits-projects.vercel.app/).
+
 This project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Next.js, TailwindCSS, daisyUI, Jest, ES Lint, and Prettier make up this tech stack.
